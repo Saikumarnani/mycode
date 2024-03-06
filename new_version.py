@@ -15,7 +15,7 @@ class Item(Base):
     description = Column(String, index=True)
     sellingprice = Column(Float)
 
-database_url = "mssql+pyodbc://DBUser:CStore@db123@3.87.50.246/CStoreiQDB_dev?driver=ODBC+Driver+17+for+SQL+Server"
+database_url = "enter server name"
 engine = create_engine(database_url)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
