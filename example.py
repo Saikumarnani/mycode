@@ -3,6 +3,7 @@ from typing import List
 from pydantic import BaseModel
 import pyodbc
 
+#fastapi instance
 app = FastAPI()
 
 # Establish a connection to the database
